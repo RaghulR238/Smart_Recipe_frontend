@@ -31,9 +31,9 @@ export default function Login() {
   const clientId =
     "78443822827-qdtukmvcl5qrb8fsqauou6nt6pqhkkdu.apps.googleusercontent.com";
 
-  useEffect(() => {
-    gapi.load("client:auth2", () => gapi.auth2.init({ clientId: clientId }));
-  }, []);
+  // useEffect(() => {
+  //   gapi.load("client:auth2", () => gapi.auth2.init({ clientId: clientId }));
+  // }, []);
 
   const [showLoginButton, setShowLoginButton] = useState(true);
   const [showLogoutButton, setShowLogoutButton] = useState(false);
