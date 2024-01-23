@@ -1,0 +1,7 @@
+/* Your existing styles */
+
+/* Add this style to reverse the slider direction */
+.react-card-slider-component {
+    transform: scaleX(-1);
+  }
+  
