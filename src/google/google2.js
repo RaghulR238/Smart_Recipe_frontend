@@ -261,27 +261,6 @@ export default function Login() {
                     >
                       sign in
                     </MDBBtn>
-                    // <p>or sign in with:</p>
-
-                    // <div>
-                    //   {showLoginButton ? (
-                    //     <GoogleLogin
-                    //       clientId={clientId}
-                    //       buttonText="Login with Google"
-                    //       onSuccess={onLoginSuccess}
-                    //       onFailure={onFailureSuccess}
-                    //       cookiePolicy={"single_host_origin"}
-                    //       prompt="select_account"
-                    //     />
-                    //   ) : null}
-                    //   {showLogoutButton ? (
-                    //     <GoogleLogout
-                    //       clientId={clientId}
-                    //       buttonText="Logout"
-                    //       onLogoutSuccess={onSignoutSuccess}
-                    //     />
-                    //   ) : null}
-                    // </div>
                     <p style={{ margin: "20px" }}>
                       Don't have an account!{" "}
                       <span
@@ -291,7 +270,6 @@ export default function Login() {
                         Sign Up
                       </span>
                     </p>
-                
                   </div>
                 ) : (
                   <div className="text-center">
