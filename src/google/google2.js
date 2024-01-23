@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { GoogleLogin, GoogleLogout } from "react-google-login";
-import { gapi } from "gapi-script";
+// import { GoogleLogin, GoogleLogout } from "react-google-login";
+// import { gapi } from "gapi-script";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import {
@@ -261,27 +261,27 @@ export default function Login() {
                     >
                       sign in
                     </MDBBtn>
-                    <p>or sign in with:</p>
+                    // <p>or sign in with:</p>
 
-                    <div>
-                      {showLoginButton ? (
-                        <GoogleLogin
-                          clientId={clientId}
-                          buttonText="Login with Google"
-                          onSuccess={onLoginSuccess}
-                          onFailure={onFailureSuccess}
-                          cookiePolicy={"single_host_origin"}
-                          prompt="select_account"
-                        />
-                      ) : null}
-                      {showLogoutButton ? (
-                        <GoogleLogout
-                          clientId={clientId}
-                          buttonText="Logout"
-                          onLogoutSuccess={onSignoutSuccess}
-                        />
-                      ) : null}
-                    </div>
+                    // <div>
+                    //   {showLoginButton ? (
+                    //     <GoogleLogin
+                    //       clientId={clientId}
+                    //       buttonText="Login with Google"
+                    //       onSuccess={onLoginSuccess}
+                    //       onFailure={onFailureSuccess}
+                    //       cookiePolicy={"single_host_origin"}
+                    //       prompt="select_account"
+                    //     />
+                    //   ) : null}
+                    //   {showLogoutButton ? (
+                    //     <GoogleLogout
+                    //       clientId={clientId}
+                    //       buttonText="Logout"
+                    //       onLogoutSuccess={onSignoutSuccess}
+                    //     />
+                    //   ) : null}
+                    // </div>
                     <p style={{ margin: "20px" }}>
                       Don't have an account!{" "}
                       <span
