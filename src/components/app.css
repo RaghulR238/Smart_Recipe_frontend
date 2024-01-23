@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Pacifico&family=Roboto&display=swap');
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    
+    
+    
+  }
+  .dropdown-container:hover{
+    background-color: #19e6e2;
+  }
+  .dropdown-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width:300px;
+   
+    z-index: 1;
+  }
+  .hh{
+    font-size: 20px;
+  }
+.hh:hover{
+    color: #19e6e2;
+ }
+  .dropdown-container:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  body {
+    font-family: 'Sauna Pro Bold', sans-serif; /* Use your custom font in the font-family property */
+  }
+  
