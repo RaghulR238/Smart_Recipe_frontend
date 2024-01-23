@@ -291,9 +291,7 @@ export default function Login() {
                         Sign Up
                       </span>
                     </p>
-                    {/* <MDBBtn className="w-100 mb-4" size="md" onClick={handleLogOut}>
-                  Logout
-                </MDBBtn> */}
+                
                   </div>
                 ) : (
                   <div className="text-center">
