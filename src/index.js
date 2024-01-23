@@ -20,7 +20,7 @@ import About from "./aboutpage/about";
 import Login from "./google/google2";
 import { LoginDataProvider } from "./loginDataContext";
 import Profile from "./profile/profile";
-import YourComponent from "./server/testing";
+// import YourComponent from "./server/testing";
 import MongoPage from "./mongoPage/mongoPage";
 import Saves from "./saves/saves";
 import Recipe1 from "./Recipe1/Recipe1";
