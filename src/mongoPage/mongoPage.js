@@ -47,7 +47,7 @@ export default function MongoPage() {
           try {
             const allCookies = document.cookie;
       
-            const response = await axios.get("http://localhost:3002/api/upload/all", {
+            const response = await axios.get("https://main--graceful-kleicha-2d0c35.netlify.app/api/upload/all", {
               withCredentials: true,
               headers: {
                 Cookie: allCookies,
@@ -83,7 +83,7 @@ export default function MongoPage() {
           setCartMessage('');
         }, 3000);
         try{
-          await axios.post("http://localhost:3002/api/saves/create",{
+          await axios.post("https://main--graceful-kleicha-2d0c35.netlify.app/saves/create",{
             ...cleanedCard
           },{
             withCredentials: true,
