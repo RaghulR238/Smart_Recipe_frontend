@@ -124,7 +124,7 @@ export default function Up() {
     const url=await uploads(file);
     console.log("url is  :  ",url);
     try{
-      await axios.post("http://localhost:3002/api/upload/up",{
+      await axios.post("https://main--graceful-kleicha-2d0c35.netlify.app/api/upload/up",{
         ...upload,
         image:url
       },{
