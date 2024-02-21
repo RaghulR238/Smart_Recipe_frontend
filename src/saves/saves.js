@@ -19,7 +19,7 @@ export default function Saves() {
       try {
         const allCookies = document.cookie;
   
-        const response = await axios.get("http://localhost:3002/api/saves/", {
+        const response = await axios.get("https://main--graceful-kleicha-2d0c35.netlify.app/api/saves/", {
           withCredentials: true,
           headers: {
             Cookie: allCookies,
