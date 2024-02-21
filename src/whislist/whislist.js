@@ -32,7 +32,7 @@ export default function Wishlist() {
       try {
         const allCookies = document.cookie;
   
-        const response = await axios.get("http://localhost:3002/api/upload/", {
+        const response = await axios.get("https://main--graceful-kleicha-2d0c35.netlify.app/api/upload/", {
           withCredentials: true,
           headers: {
             Cookie: allCookies,
