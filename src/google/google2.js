@@ -131,7 +131,7 @@ export default function Login() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:3002/api/auth/login",
+        "https://main--graceful-kleicha-2d0c35.netlify.app/auth/login",
         //{ username, password },
         {...upload},
         { withCredentials: true }
@@ -171,7 +171,7 @@ export default function Login() {
     const url=await uploads(file);
     console.log("url is  :  ",url);
     try{
-      const res=await axios.post("http://localhost:3002/api/auth/register",{
+      const res=await axios.post("https://main--graceful-kleicha-2d0c35.netlify.app/auth/register",{
         ...upload,
         image:url
       },{
