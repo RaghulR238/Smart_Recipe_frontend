@@ -31,7 +31,7 @@ const [title, setTitle] = useState();
       try {
         const allCookies = document.cookie;
   
-        const response = await axios.get("https://main--graceful-kleicha-2d0c35.netlify.app/api/upload/", {
+        const response = await axios.get("https://smart-recipe-backend.onrender.com/api/upload/", {
           withCredentials: true,
           headers: {
             Cookie: allCookies,
