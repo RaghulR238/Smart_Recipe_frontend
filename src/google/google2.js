@@ -171,7 +171,7 @@ export default function Login() {
     const url=await uploads(file);
     console.log("url is  :  ",url);
     try{
-      const res=await axios.post("https://main--graceful-kleicha-2d0c35.netlify.app/auth/register",{
+      const res=await axios.post("https://smart-recipe-backend.onrender.com/api/auth/register",{
         ...upload,
         image:url
       },{
