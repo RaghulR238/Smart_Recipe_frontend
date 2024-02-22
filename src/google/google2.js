@@ -131,7 +131,7 @@ export default function Login() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://main--graceful-kleicha-2d0c35.netlify.app/auth/login",
+        "https://smart-recipe-backend.onrender.com/api/auth/login",
         //{ username, password },
         {...upload},
         { withCredentials: true }
